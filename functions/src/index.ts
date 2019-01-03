@@ -166,6 +166,7 @@ class Battle {
       .add({
         uid: 'judge',
         author: 'ジャッジ',
+        icon: 'judge',
         body: messagebody,
         created_at: admin.firestore.FieldValue.serverTimestamp()
       })
